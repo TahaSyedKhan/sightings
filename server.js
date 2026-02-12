@@ -5,7 +5,7 @@ import { serveStatic } from './utils/serveStatic.js'
 const __dirname = import.meta.dirname
 
 const server = http.createServer( async (req, res) => {
-    await serveStatic(__dirname, req, res)
+    await serveStatic(__dirname, req, res) 
 })
 const port = 8000
 
